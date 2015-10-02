@@ -1,0 +1,4 @@
+<launch>
+  <!-- The listener node subscribes to the custom message that talker is publishing. -->
+  <node pkg="eyetracker_listener" type="listener.py" name="listener" output="screen"/>
+</launch>
